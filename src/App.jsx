@@ -4,6 +4,7 @@ import Users from "./pages/Users/Users";
 import Sac from "./pages/Sac/Sac";
 import Sobre from "./pages/Sobre/Sobre";
 import NotFound from "./pages/NotFound/NotFound";
+import Login from "./pages/Login/Login";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/users" element={<Users />} />
         <Route path="/sac" element={<Sac />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
