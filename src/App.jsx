@@ -1,24 +1,33 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Users from "./pages/Users/Users";
+import Sac from "./pages/Sac/Sac";
+import Sobre from "./pages/Sobre/Sobre";
+import NotFound from "./pages/NotFound/NotFound";
 
-import Header from "./components/Header/Header"
-import UserCard from "./components/UserCard/UserCard"
-import Footer from "./components/Footer/Footer"
-import imgJoao from "./assets/joao.png";
-import imgMaria from "./assets/maria.png";
-import Post from "./components/Post/Post";
+
 
 
 function Hello() {
   return <h2>Olá meu amigo. Como vai?</h2>
 }
 
+
+
 function App() {
   return (
     <>
-      <Header />
-      <Post />
-      <UserCard avatar={imgMaria} nome="Maria" idade={30} />
-      <UserCard avatar={imgJoao} nome="João" idade={45} ocup="Engenheiro Civil" />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/users" element={<Users />} />
+        <Route path="/sac" element={<Sac />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+
+
     </>
   );
 }
