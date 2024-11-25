@@ -5,6 +5,7 @@ import Sac from "./pages/Sac/Sac";
 import Sobre from "./pages/Sobre/Sobre";
 import NotFound from "./pages/NotFound/NotFound";
 import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
 
 
 
@@ -17,7 +18,6 @@ function Hello() {
 
 function App() {
   return (
-    <>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,12 +25,10 @@ function App() {
         <Route path="/sac" element={<Sac />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
-
-
-    </>
   );
 }
 
