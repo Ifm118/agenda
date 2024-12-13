@@ -1,4 +1,5 @@
 {
+
   "name": "agenda",
   "private": true,
   "version": "0.0.0",
@@ -30,4 +31,13 @@
     "globals": "^15.12.0",
     "vite": "^6.0.1"
   }
-}
+
+  "name": "Agenda-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Igor Froes",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+ 1bfbac6def34abe51bcf94fae8d7e89e62033849}
