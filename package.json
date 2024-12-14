@@ -1,9 +1,11 @@
 {
-
   "name": "agenda",
   "version": "1.0.0",
   "description": "Projeto Agenda API",
   "main": "index.js",
+  "author": "Igor Froes",
+  "license": "ISC",
+  "keywords": [],
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -24,13 +26,4 @@
     "nodemon": "^3.1.9",
     "vite": "^4.0.0"
   }
-
-  "name": "Agenda-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
-  "author": "Igor Froes",
-  "license": "ISC",
-  "keywords": [],
-  "description": ""
- 1bfbac6def34abe51bcf94fae8d7e89e62033849}
+}
