@@ -10,7 +10,7 @@ function Footer() {
                 {/* Links do Footer */}
                 <div className="d-flex justify-content-center">
                     <a 
-                        href="https://github.com" 
+                        href="https://github.com/Ifm118/agenda" 
                         className="btn btn-outline-light btn-sm me-2"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -18,7 +18,7 @@ function Footer() {
                         <i className="bi bi-github me-1"></i> GitHub
                     </a>
                     <a 
-                        href="https://linkedin.com" 
+                        href="https://www.linkedin.com/in/igor-fr%C3%B3es-moreira-72a94626a/" 
                         className="btn btn-outline-light btn-sm me-2"
                         target="_blank"
                         rel="noopener noreferrer"

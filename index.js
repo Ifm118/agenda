@@ -1,15 +1,10 @@
-import "dotenv/config";
-import express from "express";
-import cors from "cors";
+const express = require('express');
+const app = express();
 
-const servidor = express();
+app.get('/', (req, res) => {
+    res.send('Servidor rodando com Nodemon!');
+});
 
-servidor.use(cors({ origin: "*" }));
-
-servidor.use(express.json());
-
-// rotas ...
-
-servidor.listen(3000, () => {
-    console.log("Servidor em execução.");
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000');
 });
