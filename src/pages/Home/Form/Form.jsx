@@ -4,6 +4,8 @@ import Header from "../../../components/Header/Header";
 import Footer from "../../../components/Footer/Footer";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+
 
 function Form() {
   const [agendas, setAgendas] = useState([]); // Estado para armazenar os agendamentos
